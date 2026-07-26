@@ -10,9 +10,9 @@
 #include <cstdlib>
 
 extern const char * description;
-extern int block_inst;
-extern int block_ops;
-extern int unroll;
+extern unsigned long block_inst;
+extern unsigned long block_ops;
+extern unsigned long unroll;
 extern void kernel(unsigned long);
 
 int main(int argc, char ** argv) 
